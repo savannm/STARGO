@@ -14,9 +14,17 @@ var rocket={
 	 '2',
 	  '3'
 	],
-	
+
 	turnOn: function(){	
 		this.isOn = true;
+	}
+	RocketOffOn: function(onOff){
+		if(onOff==true){
+			this.isOn=false;
+		}else{
+			this.isOn=true;
+		}
+
 	}
 
 }
